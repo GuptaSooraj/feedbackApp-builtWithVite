@@ -6,17 +6,17 @@ export const FeedbackProvider = ({ children }) => {
   // const [isLoading, setIsLoading] = useState(true);
   const [feedback, setFeedback] = useState([
     {
-      text: "This is feedback item 1 coming from backend",
+      text: "This is feedback item 1",
       rating: 10,
       id: 1,
     },
     {
-      text: "This is feedback item 2 coming from backend",
+      text: "This is feedback item 2",
       rating: 9,
       id: 2,
     },
     {
-      text: "This is feedback item 3 coming from the backend",
+      text: "This is feedback item 3",
       rating: 8,
       id: 3,
     },
